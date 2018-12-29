@@ -8,8 +8,24 @@ const unit = {
 };
 const Styles = StyleSheet.create({
 	container: {
+		flex:1
 	},
-
+	flatListStyle: {
+      marginTop:100
+	},
+    itemViewStyle :{
+	  height :55,
+	  backgroundColor:'#CCCCCC',
+	  flexDirection : 'row',
+	  alignItems: 'center',
+	},
+	separator:{
+		height: 4,
+		backgroundColor: "white",
+	},
+	itemTestStyle:{
+	  marginLeft:15,
+	},
     touchContainer: {
         height: 50,
         flexDirection: 'row',
