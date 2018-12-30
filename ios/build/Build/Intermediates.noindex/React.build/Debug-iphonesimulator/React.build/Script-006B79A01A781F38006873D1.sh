@@ -1,5 +1,5 @@
 #!/bin/sh
-export RCT_METRO_PORT="${RCT_METRO_PORT:=8889}"
+export RCT_METRO_PORT="${RCT_METRO_PORT:=8081}"
 echo "export RCT_METRO_PORT=${RCT_METRO_PORT}" > "${SRCROOT}/../scripts/.packager.env"
 if [ -z "${RCT_NO_LAUNCH_PACKAGER+xxx}" ] ; then
   if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then

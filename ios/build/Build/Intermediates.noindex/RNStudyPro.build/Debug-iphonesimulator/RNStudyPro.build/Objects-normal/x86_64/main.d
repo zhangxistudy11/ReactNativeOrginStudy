@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/ios/RNStudyPro/main.m \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/ios/RNStudyPro/AppDelegate.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/RNStudyPro/main.m \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/RNStudyPro/AppDelegate.h

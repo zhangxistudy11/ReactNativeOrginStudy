@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/React/Base/RCTManagedPointer.mm \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/React/Base/RCTManagedPointer.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Base/RCTManagedPointer.mm \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Base/RCTManagedPointer.h

@@ -1,12 +1,12 @@
 dependencies: \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/yoga/yoga/Utils.cpp \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/yoga/yoga/Utils.h \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/yoga/yoga/YGConfig.h \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/yoga/yoga/YGLayout.h \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/yoga/yoga/YGFloatOptional.h \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/yoga/yoga/YGStyle.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/yoga/yoga/Utils.cpp \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/yoga/yoga/Utils.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/yoga/yoga/YGConfig.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/yoga/yoga/YGLayout.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/yoga/yoga/YGFloatOptional.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/yoga/yoga/YGStyle.h

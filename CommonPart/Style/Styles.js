@@ -11,13 +11,14 @@ const Styles = StyleSheet.create({
 		flex:1
 	},
 	flatListStyle: {
-      marginTop:100
+      marginTop:10
 	},
     itemViewStyle :{
 	  height :55,
 	  backgroundColor:'#CCCCCC',
 	  flexDirection : 'row',
 	  alignItems: 'center',
+	  width:width
 	},
 	separator:{
 		height: 4,

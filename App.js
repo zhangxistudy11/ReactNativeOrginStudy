@@ -7,8 +7,13 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View,FlatList, TouchableWithoutFeedback } from 'react-native';
+import PropTypes from 'prop-types'
+import {Platform, StyleSheet, Text, View,FlatList, TouchableWithoutFeedback ,NavigatorIOS,Dimensions} from 'react-native';
 import Styles from './CommonPart//Style/Styles';
+import BasicGrammar from './ES6Grammar/BasicGrammar'
+const {
+	width,height
+} = Dimensions.get('window');
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
@@ -16,14 +21,35 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-type Props = {};
-export default class App extends Component<Props> {
+
+export default class App extends Component{
   render() {
     return (
+       <NavigatorIOS
+        initialRoute={{
+          component: AppConment,
+          title: '首页'
+        }}
+        style={{flex: 1}}
+      />
+        
+    );
+  }
+
+}
+
+ class AppConment extends Component{
+  static propTypes = {
+    title: PropTypes.string.isRequired,
+    navigator: PropTypes.object.isRequired
+  }
+  render() {
+    return (
+     
       <View style={Styles.container}>
          <FlatList 
         style = {Styles.flatListStyle}
-        data={[{ key: '只给你问' }, { key: 'b' },{ key: 'a' }, { key: 'b' },{ key: 'a' }, { key: 'b' }]}
+        data={[{ key: '0-ES6语法' }, { key: 'b' },{ key: 'a' }, { key: 'b' },{ key: 'a' }, { key: 'b' }]}
         renderItem={this._renderFlatListItem}
         ItemSeparatorComponent = {() => (<View style={Styles.separator}></View>)}
 
@@ -34,7 +60,7 @@ export default class App extends Component<Props> {
   _renderFlatListItem = (data) => {
     return (<View  style={Styles.itemViewStyle}>
       <TouchableWithoutFeedback onPress={() => { this.clickItem(data) }}>
-        <View>
+        <View style={[{width:width}]}>
           <Text style={ [Styles.itemTestStyle,{color:'#333'},{fontFamily:'PingFangSC-Regular'},{fontSize:17} ]}>{data.item.key}</Text>
         </View>
       </TouchableWithoutFeedback>
@@ -42,8 +68,11 @@ export default class App extends Component<Props> {
   }
   clickItem(data){
    console.log('sss')
+   this.props.navigator.push({
+    component: BasicGrammar,
+    title:'ES6语法基础'
+    
+  });
   }
-
+ 
 }
-
-

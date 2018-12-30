@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/privatedata/PrivateDataBase.cpp \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/privatedata/PrivateDataBase.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/privatedata/PrivateDataBase.cpp \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/privatedata/PrivateDataBase.h

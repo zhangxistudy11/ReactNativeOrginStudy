@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/React/Modules/RCTRedBoxExtraDataViewController.m \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/React/Modules/RCTRedBoxExtraDataViewController.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Modules/RCTRedBoxExtraDataViewController.m \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Modules/RCTRedBoxExtraDataViewController.h

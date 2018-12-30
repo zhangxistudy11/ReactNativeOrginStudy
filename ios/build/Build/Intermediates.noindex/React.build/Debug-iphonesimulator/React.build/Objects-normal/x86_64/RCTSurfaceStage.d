@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/React/Base/Surface/RCTSurfaceStage.m \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/React/Base/Surface/RCTSurfaceStage.h \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/React/Base/RCTDefines.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Base/Surface/RCTSurfaceStage.m \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Base/Surface/RCTSurfaceStage.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Base/RCTDefines.h

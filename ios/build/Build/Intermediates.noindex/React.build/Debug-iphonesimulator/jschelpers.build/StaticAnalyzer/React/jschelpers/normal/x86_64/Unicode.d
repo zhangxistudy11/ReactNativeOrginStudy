@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/jschelpers/Unicode.cpp \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/jschelpers/Unicode.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/jschelpers/Unicode.cpp \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/jschelpers/Unicode.h

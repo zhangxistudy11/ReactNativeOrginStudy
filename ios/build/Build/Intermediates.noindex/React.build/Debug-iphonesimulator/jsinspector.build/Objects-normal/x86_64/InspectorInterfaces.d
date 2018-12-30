@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
-  /Users/zhangxiimac/Desktop/CodeRepository/RNOrginStudy/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
