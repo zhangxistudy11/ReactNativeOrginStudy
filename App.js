@@ -11,6 +11,7 @@ import PropTypes from 'prop-types'
 import {Platform, StyleSheet, Text, View,FlatList, TouchableWithoutFeedback ,NavigatorIOS,Dimensions} from 'react-native';
 import Styles from './CommonPart//Style/Styles';
 import BasicGrammar from './ES6Grammar/BasicGrammar'
+import TimerUser from './TimerPart/TimerUser'
 const {
 	width,height
 } = Dimensions.get('window');
@@ -49,7 +50,7 @@ export default class App extends Component{
       <View style={Styles.container}>
          <FlatList 
         style = {Styles.flatListStyle}
-        data={[{ key: '0-ES6语法' }, { key: 'b' },{ key: 'a' }, { key: 'b' },{ key: 'a' }, { key: 'b' }]}
+        data={[{ key: '0-ES6语法' }, { key: '1-定时器使用' }]}
         renderItem={this._renderFlatListItem}
         ItemSeparatorComponent = {() => (<View style={Styles.separator}></View>)}
 
@@ -68,11 +69,23 @@ export default class App extends Component{
   }
   clickItem(data){
    console.log('sss')
-   this.props.navigator.push({
-    component: BasicGrammar,
-    title:'ES6语法基础'
-    
-  });
+   switch(data.index){
+     case 0 :
+      this.props.navigator.push({
+        component: BasicGrammar,
+        title:'ES6语法基础'
+      });
+     break;
+     case 1:
+     this.props.navigator.push({
+      component: TimerUser,
+      title:'定时器使用'
+    });
+     break;
+     default:
+     break;
+   }
+ 
   }
  
 }

@@ -1,13 +1,13 @@
 dependencies: \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/Libraries/Text/TextInput/Multiline/RCTUITextView.m \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/Libraries/Text/TextInput/Multiline/RCTUITextView.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.h
+  /Users/zx/Desktop/YunCode/node_modules/react-native/Libraries/Text/TextInput/Multiline/RCTUITextView.m \
+  /Users/zx/Desktop/YunCode/node_modules/react-native/Libraries/Text/TextInput/Multiline/RCTUITextView.h \
+  /Users/zx/Desktop/YunCode/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
+  /Users/zx/Desktop/YunCode/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h \
+  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/zx/Desktop/YunCode/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.h
