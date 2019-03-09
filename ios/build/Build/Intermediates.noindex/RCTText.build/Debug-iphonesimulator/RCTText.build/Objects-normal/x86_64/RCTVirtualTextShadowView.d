@@ -1,23 +1,23 @@
 dependencies: \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextShadowView.m \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextShadowView.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/Libraries/Text/RCTTextTransform.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/Libraries/Text/RawText/RCTRawTextShadowView.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextShadowView.m \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextShadowView.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/Libraries/Text/RCTTextTransform.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/Libraries/Text/RawText/RCTRawTextShadowView.h

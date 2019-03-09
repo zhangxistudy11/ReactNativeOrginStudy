@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Unicode.cpp \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Unicode.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Unicode.cpp \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Unicode.h

@@ -1,20 +1,20 @@
 dependencies: \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Views/RCTView.m \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Views/RCTView.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Views/RCTBorderStyle.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Views/RCTPointerEvents.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Views/RCTBorderDrawing.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Base/RCTConvert.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Views/RCTAnimationType.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/zx/Desktop/YunCode/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Views/UIView+React.h \
-  /Users/zx/Desktop/YunCode/node_modules/react-native/React/Modules/RCTI18nUtil.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Views/RCTView.m \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Views/RCTView.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Views/RCTBorderDrawing.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/Modules/RCTI18nUtil.h

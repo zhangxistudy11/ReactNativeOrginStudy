@@ -12,6 +12,7 @@ import {Platform, StyleSheet, Text, View,FlatList, TouchableWithoutFeedback ,Nav
 import Styles from './CommonPart//Style/Styles';
 import BasicGrammar from './ES6Grammar/BasicGrammar'
 import TimerUser from './TimerPart/TimerUser'
+import AsyncBasicGrammar from './AsyncFile/AsyncBasicGrammar'
 const {
 	width,height
 } = Dimensions.get('window');
@@ -50,7 +51,7 @@ export default class App extends Component{
       <View style={Styles.container}>
          <FlatList 
         style = {Styles.flatListStyle}
-        data={[{ key: '0-ES6语法' }, { key: '1-定时器使用' }]}
+        data={[{ key: '0-ES6语法' }, { key: '1-定时器使用' },{ key: '2-异步使用' }]}
         renderItem={this._renderFlatListItem}
         ItemSeparatorComponent = {() => (<View style={Styles.separator}></View>)}
 
@@ -68,7 +69,7 @@ export default class App extends Component{
     </View>)
   }
   clickItem(data){
-   console.log('sss')
+
    switch(data.index){
      case 0 :
       this.props.navigator.push({
@@ -80,6 +81,12 @@ export default class App extends Component{
      this.props.navigator.push({
       component: TimerUser,
       title:'定时器使用'
+    });
+     break;
+     case 2:
+     this.props.navigator.push({
+      component: AsyncBasicGrammar,
+      title:'异步使用'
     });
      break;
      default:

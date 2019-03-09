@@ -1,2 +1,3 @@
-dependencies: /Users/zx/Desktop/YunCode/ios/RNStudyPro/main.m \
-  /Users/zx/Desktop/YunCode/ios/RNStudyPro/AppDelegate.h
+dependencies: \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/RNStudyPro/main.m \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/RNStudyPro/AppDelegate.h
