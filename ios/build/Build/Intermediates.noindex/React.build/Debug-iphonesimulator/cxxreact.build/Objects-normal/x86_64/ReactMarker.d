@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/ReactMarker.cpp \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/ReactMarker.h
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/ReactCommon/cxxreact/ReactMarker.cpp \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/ReactCommon/cxxreact/ReactMarker.h

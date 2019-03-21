@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSCPerfStats.cpp \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSCPerfStats.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/ReactCommon/cxxreact/JSCPerfStats.cpp \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/ReactCommon/cxxreact/JSCPerfStats.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h

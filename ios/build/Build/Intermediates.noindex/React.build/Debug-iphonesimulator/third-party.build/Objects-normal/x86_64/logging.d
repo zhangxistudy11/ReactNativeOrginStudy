@@ -1,13 +1,13 @@
 dependencies: \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/third-party/glog-0.3.5/src/logging.cc \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/glog-0.3.5/src/utilities.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/glog-0.3.5/src/base/mutex.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/third-party/glog-0.3.5/src/config.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/glog-0.3.5/src/config.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/glog-0.3.5/src/glog/logging.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/glog-0.3.5/src/glog/log_severity.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/glog-0.3.5/src/glog/vlog_is_on.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/glog-0.3.5/src/base/commandlineflags.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/glog-0.3.5/src/glog/raw_logging.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/glog-0.3.5/src/base/googleinit.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/glog-0.3.5/src/stacktrace.h
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/third-party/glog-0.3.5/src/logging.cc \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/../third-party/glog-0.3.5/src/utilities.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/../third-party/glog-0.3.5/src/base/mutex.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/third-party/glog-0.3.5/src/config.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/../third-party/glog-0.3.5/src/config.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/../third-party/glog-0.3.5/src/glog/logging.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/../third-party/glog-0.3.5/src/glog/log_severity.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/../third-party/glog-0.3.5/src/glog/vlog_is_on.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/../third-party/glog-0.3.5/src/base/commandlineflags.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/../third-party/glog-0.3.5/src/glog/raw_logging.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/../third-party/glog-0.3.5/src/base/googleinit.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/../third-party/glog-0.3.5/src/stacktrace.h
