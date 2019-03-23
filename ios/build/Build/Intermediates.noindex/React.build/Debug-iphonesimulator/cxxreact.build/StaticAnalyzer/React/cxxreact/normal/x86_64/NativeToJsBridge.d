@@ -378,6 +378,7 @@ dependencies: \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Memory.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/MoveWrapper.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/Instance.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../ReactCommon/cxxreact/NativeToJsBridge.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSBigString.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/SystraceSection.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/MethodCall.h \

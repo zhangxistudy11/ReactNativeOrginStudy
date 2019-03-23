@@ -377,4 +377,6 @@ dependencies: \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../ReactCommon/jschelpers/noncopyable.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/privatedata/PrivateDataBase.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/json.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/jschelpers/JSCHelpers.h
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/jschelpers/JSCHelpers.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../ReactCommon/jschelpers/Value.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/jschelpers/JavaScriptCore.h

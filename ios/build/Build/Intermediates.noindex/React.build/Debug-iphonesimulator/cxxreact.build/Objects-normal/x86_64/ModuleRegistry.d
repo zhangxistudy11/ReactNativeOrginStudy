@@ -374,4 +374,5 @@ dependencies: \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Format-inl.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Exception.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/portability/Windows.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/NativeModule.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/SystraceSection.h
