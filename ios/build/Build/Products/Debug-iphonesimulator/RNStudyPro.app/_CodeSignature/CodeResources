@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		hCMX2j5QRtNDREbKcl3/wiMGePY=
+		50FbfDFuVcIAqpdHGaNhMEniua4=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -55,7 +55,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5NxD4O07GGd5C2cmrBhaOK/dRT8=
+		HgBJxJsG3E4eImyz+7E7QpnvF/o=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -67,7 +67,7 @@
 		</data>
 		<key>PlugIns/RNStudyProTests.xctest.dSYM/Contents/Resources/DWARF/RNStudyProTests</key>
 		<data>
-		COoZ4DjtDqcA2/bpMdnnFMKKccM=
+		dVkNGg2bbyIgMizVgHVgyZQrZkg=
 		</data>
 		<key>PlugIns/RNStudyProTests.xctest/Info.plist</key>
 		<data>
@@ -75,7 +75,7 @@
 		</data>
 		<key>PlugIns/RNStudyProTests.xctest/RNStudyProTests</key>
 		<data>
-		drZj+ccihOqHfqODgmEbaJPWz/0=
+		qwvymWXN2qDaxsOefGK/8OQv900=
 		</data>
 		<key>PlugIns/RNStudyProTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -88,11 +88,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hCMX2j5QRtNDREbKcl3/wiMGePY=
+			50FbfDFuVcIAqpdHGaNhMEniua4=
 			</data>
 			<key>hash2</key>
 			<data>
-			DHsTatKQ6YnbxvAGEYPI8oCJbb3F0LhQbMLKWL+j7yw=
+			HNI+FedG93wbjJ5B/ccJjXXqP6UzwJcn4x9ZE/RZ36A=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -222,11 +222,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			COoZ4DjtDqcA2/bpMdnnFMKKccM=
+			dVkNGg2bbyIgMizVgHVgyZQrZkg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZnN5ooeSu2CFPnSOuMhb/Wl88bDds/2KYDtYF/fLN2Y=
+			bSXxRUP0H0muSqvQ89MNRipvAWJBnjQrezvc7nRfaqw=
 			</data>
 		</dict>
 		<key>PlugIns/RNStudyProTests.xctest/Info.plist</key>
@@ -244,11 +244,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			drZj+ccihOqHfqODgmEbaJPWz/0=
+			qwvymWXN2qDaxsOefGK/8OQv900=
 			</data>
 			<key>hash2</key>
 			<data>
-			S1BAq/HNWI/X7OBC9a/GejuCsg23oSNim7LpRm+8PrU=
+			3ga7bDE+uGhdcnJDwTe5FjBUKRaiiMyo6dD8Jyj5/Bo=
 			</data>
 		</dict>
 		<key>PlugIns/RNStudyProTests.xctest/_CodeSignature/CodeResources</key>
@@ -265,7 +265,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -296,24 +296,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -349,13 +337,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

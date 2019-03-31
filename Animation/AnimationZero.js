@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Animated, Easing, FlatList, TouchableWithoutFeedback } from 'react-native';
+import { View, Text, Animated, Easing, FlatList, TouchableOpacity } from 'react-native';
 import Styles from '../CommonPart//Style/Styles';
 
 export default class AnimationZero extends React.Component {
@@ -8,28 +8,14 @@ export default class AnimationZero extends React.Component {
         this.state = {
             itemOpacity: new Animated.Value(0),  // 透明度初始值设为0
             leftValue: new Animated.Value(0),
-            slideValue: new Animated.Value(300)
+            slideFromValue: new Animated.Value(0),
+            // slideToValue :new Animated.Value(0)
         }
     }
     componentDidMount(){
         // this.runAmimationThree();
-        this.runAmimationZero();
     }
-    runAmimationZero = ()=>{
-        let deep = 0;
-        let duration = 200;
-        Animated.timing(
-            this.state.slideValue,
-            {
-                toValue: deep,
-                duration,
-                easing: Easing.linear,
-                useNativeDriver: true,
-                delay:1000
-
-            }
-        ).start();
-    }
+  
     runAmimationThree = ()=>{
         let light = 0.5;
         let deep = 1.0;
@@ -59,20 +45,79 @@ export default class AnimationZero extends React.Component {
     render() {
         return (
             <View style={[Styles.container, { marginTop: 100 }]}>
+                <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row',height:100}}>
+                        <TouchableOpacity onPress={() => {
+                            this.clickLeftBar();
+                        }}>
+                        <View style={{ width:100, height:30,justifyContent: 'center', alignItems: 'center', flexDirection: 'row', backgroundColor: 'white'}}>
+                            <Text>开始弹框</Text>
+                            </View>
+                        </TouchableOpacity>
+                    </View>
+                    <View style={{ justifyContent: 'center', alignItems: 'center', width: 100, flexDirection: 'row', backgroundColor: 'yellow',height:100 }}>
+
+                        <TouchableOpacity onPress={() => {
+                            this.clickRightBar();
+                        }}>
+                            <Text>隐藏弹框</Text>
+                            
+                        </TouchableOpacity>
+                    </View>
                  {/* {this.testAnimated()} */}
                  {this.testSlide()}
             </View>
         );
     }
+    clickLeftBar = ()=>{
+        this.runAmimationZero();
+
+    }
+    runAmimationZero = ()=>{
+        const {slideFromValue} = this.state;
+        let duration = 200;
+        Animated.timing(
+            slideFromValue,
+            {
+                toValue: new Animated.Value(-300),
+                duration,
+                easing: Easing.linear,
+                useNativeDriver: true,
+
+            }
+        ).start(({ finished }) => {
+            if (finished) {
+                // console.log("ffffffff")
+                // let temp = slideFromValue;
+                // this.setState({
+                //     slideFromValue:slideToValue,
+                //     slideToValue:temp
+                // })
+            }
+          });
+    }
+    clickRightBar =()=>{
+        const {slideFromValue} = this.state;
+        let duration = 200;
+        Animated.timing(
+            slideFromValue,
+            {
+                toValue: new Animated.Value(0),
+                duration,
+                easing: Easing.linear,
+                useNativeDriver: true,
+
+            }
+        ).start();
+    }
     testSlide = ()=>{
-        let { slideValue} = this.state;
+        let { slideFromValue} = this.state;
         return (
             <Animated.View                 // 使用专门的可动画化的View组件
               style={{
-                  bottom:0,position:'absolute',
+                  bottom:-(300-80),position:'absolute',
                  height:300,width:375,backgroundColor:'green',
                 transform:[
-                  {translateY: slideValue}, // y轴移动
+                  {translateY: slideFromValue}, // y轴移动
               ]
               }}
             >
