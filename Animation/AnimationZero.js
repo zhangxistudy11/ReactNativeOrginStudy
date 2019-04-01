@@ -84,16 +84,9 @@ export default class AnimationZero extends React.Component {
                 useNativeDriver: true,
 
             }
-        ).start(({ finished }) => {
-            if (finished) {
-                // console.log("ffffffff")
-                // let temp = slideFromValue;
-                // this.setState({
-                //     slideFromValue:slideToValue,
-                //     slideToValue:temp
-                // })
-            }
-          });
+        ).start(
+            ()=>{console.log("gggg")}
+        );
     }
     clickRightBar =()=>{
         const {slideFromValue} = this.state;
