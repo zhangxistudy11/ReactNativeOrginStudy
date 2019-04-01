@@ -393,11 +393,13 @@ dependencies: \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSCSamplingProfiler.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSCTracing.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSCUtils.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../ReactCommon/cxxreact/JSBigString.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSModulesUnbundle.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/MessageQueueThread.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/ModuleRegistry.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/Platform.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../ReactCommon/cxxreact/ReactMarker.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/RAMBundleRegistry.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../ReactCommon/cxxreact/JSModulesUnbundle.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/RecoverableError.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/SystraceSection.h

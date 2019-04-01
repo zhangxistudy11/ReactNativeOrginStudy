@@ -20,7 +20,7 @@ export default class MyListItem extends React.PureComponent {
 
   _renderFlatListItem = (data) => {
     return (<View  style={Styles.itemViewStyle}>
-      <TouchableWithoutFeedback onPress={() => { this.clickItem(data) }}>
+      <TouchableWithoutFeedback onPress={() => {  }}>
         <View>
           <Text style={ [Styles.itemTestStyle,{color:'#333'},{fontFamily:'PingFangSC-Regular'},{fontSize:17} ]}>{data.item.key}</Text>
         </View>
@@ -28,7 +28,7 @@ export default class MyListItem extends React.PureComponent {
     </View>)
   }
   clickItem(data){
-   console.log('sss')
+  //  console.log('sss')
   }
 }
 

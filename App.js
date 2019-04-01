@@ -13,6 +13,7 @@ import Styles from './CommonPart//Style/Styles';
 import BasicGrammar from './ES6Grammar/BasicGrammar'
 import TimerUser from './TimerPart/TimerUser'
 import AsyncBasicGrammar from './AsyncFile/AsyncBasicGrammar'
+import AnimationBasic from './Animation/AnimationBasic'
 const {
 	width,height
 } = Dimensions.get('window');
@@ -51,7 +52,7 @@ export default class App extends Component{
       <View style={Styles.container}>
          <FlatList 
         style = {Styles.flatListStyle}
-        data={[{ key: '0-ES6语法' }, { key: '1-定时器使用' },{ key: '2-异步使用' }]}
+        data={[{ key: '0-ES6语法' }, { key: '1-定时器使用' },{ key: '2-异步使用' },{ key: '3-RN中的动画' }]}
         renderItem={this._renderFlatListItem}
         ItemSeparatorComponent = {() => (<View style={Styles.separator}></View>)}
 
@@ -87,6 +88,12 @@ export default class App extends Component{
      this.props.navigator.push({
       component: AsyncBasicGrammar,
       title:'异步使用'
+    });
+     break;
+     case 3:
+     this.props.navigator.push({
+      component: AnimationBasic,
+      title:'RN中的动画'
     });
      break;
      default:

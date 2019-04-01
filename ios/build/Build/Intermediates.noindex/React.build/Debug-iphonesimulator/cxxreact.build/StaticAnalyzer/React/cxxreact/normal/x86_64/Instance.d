@@ -377,13 +377,16 @@ dependencies: \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/portability/Windows.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSBigString.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSBundleType.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSExecutor.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/MessageQueueThread.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/MethodCall.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/NativeToJsBridge.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/RAMBundleRegistry.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../ReactCommon/cxxreact/JSModulesUnbundle.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/RecoverableError.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/SystraceSection.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../ReactCommon/cxxreact/JSIndexedRAMBundle.h \
+  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../ReactCommon/cxxreact/JSBigString.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Memory.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/MoveWrapper.h \
   /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/json.h
