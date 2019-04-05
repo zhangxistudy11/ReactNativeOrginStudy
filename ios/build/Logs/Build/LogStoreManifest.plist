@@ -5,6 +5,36 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>AB5B5606-BF54-4F55-B93C-FE2AB6B31C63</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AB5B5606-BF54-4F55-B93C-FE2AB6B31C63.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>RNStudyPro project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RNStudyPro</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project RNStudyPro with scheme RNStudyPro and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>576170700.193344</real>
+			<key>timeStoppedRecording</key>
+			<real>576170703.05483699</real>
+			<key>title</key>
+			<string>Building project RNStudyPro with scheme RNStudyPro and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>AB5B5606-BF54-4F55-B93C-FE2AB6B31C63</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
