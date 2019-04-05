@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Text, TouchableOpacity, View, Dimensions ,Animated, Easing} from 'react-native';
+import { Modal, Text, TouchableOpacity, View, Dimensions, Animated, Easing } from 'react-native';
 let screenWidth = Dimensions.get('window').width;
 let screenHeight = Dimensions.get('window').height;
 
@@ -8,7 +8,8 @@ export default class OrderDetailDispalyBar extends React.Component {
         super(props);
         this.state = {
             showMoadl: false,
-            slideValue: new Animated.Value(100)
+            slideValue: new Animated.Value(0),
+            contentHeight: 300
         };
 
     }
@@ -29,49 +30,36 @@ export default class OrderDetailDispalyBar extends React.Component {
                     animationType="fade"
                     transparent={true}
                     visible={showMoadl}
-
+                    // onShow={()=>{this.showContentView()}}
                 >
                     <View style={{ backgroundColor: "rgba(0, 0, 0, 0.7)", flex: 1 }}>
-                    {this._renderSlideView()}
-
+                        {this._renderSlideView()}
                         {this._renderBottomBar()}
                     </View>
-             
+
                 </Modal>
             </View>
 
 
         );
     }
-    runAmimationZero = ()=>{
-        let deep = 0;
-        let duration = 15;
-        Animated.timing(
-            this.state.slideValue,
-            {
-                toValue: deep,
-                duration,
-                easing: Easing.linear,
-                useNativeDriver: true,
 
-            }
-        ).start();
-    }
     //滑动部分
-    _renderSlideView = ()=>{
-        let { slideValue} = this.state;
+    _renderSlideView = () => {
+        let { slideValue, contentHeight } = this.state;
+        let barHeight = this.getBarHeight();
         return (
             <Animated.View                 // 使用专门的可动画化的View组件
-              style={{
-                 bottom:100,position:'absolute',
-                 height:20,width:screenWidth,backgroundColor:'green',
-                transform:[
-                  {translateY: slideValue}, // y轴移动
-              ]
-              }}
+                style={{
+                    bottom: -(contentHeight - barHeight), position: 'absolute',
+                    height: contentHeight, width: screenWidth, backgroundColor: 'green',
+                    transform: [
+                        { translateY: slideValue }, // y轴移动
+                    ]
+                }}
             >
             </Animated.View>
-          );
+        );
     }
     //底部点击区域
     _renderBottomBar = () => {
@@ -81,17 +69,17 @@ export default class OrderDetailDispalyBar extends React.Component {
         let rightWidth = this.getRightWidth();
         return (
             <View style={{ position: 'absolute', bottom: 0, backgroundColor: 'black', height: barHeight, width: screenWidth, flexDirection: 'column' }}>
-                <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', flexDirection: 'row', backgroundColor: 'blue'}}>
-                    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', flexDirection: 'row',height:barHeight-fillHeight}}>
+                <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', flexDirection: 'row', backgroundColor: 'blue' }}>
+                    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', flexDirection: 'row', height: barHeight - fillHeight }}>
                         <TouchableOpacity onPress={() => {
                             this.clickLeftBar(!showMoadl);
                         }}>
-                        <View style={{ width:100, height:30,justifyContent: 'center', alignItems: 'center', flexDirection: 'row', backgroundColor: 'white'}}>
-                            <Text>开始弹框</Text>
+                            <View style={{ width: 100, height: 30, justifyContent: 'center', alignItems: 'center', flexDirection: 'row', backgroundColor: 'white' }}>
+                                <Text>开始弹框</Text>
                             </View>
                         </TouchableOpacity>
                     </View>
-                    <View style={{ justifyContent: 'center', alignItems: 'center', width: rightWidth, flexDirection: 'row', backgroundColor: 'yellow',height:barHeight-fillHeight }}>
+                    <View style={{ justifyContent: 'center', alignItems: 'center', width: rightWidth, flexDirection: 'row', backgroundColor: 'yellow', height: barHeight - fillHeight }}>
 
                         <TouchableOpacity onPress={() => {
                             this.clickLeftBar(!showMoadl);
@@ -99,7 +87,7 @@ export default class OrderDetailDispalyBar extends React.Component {
                             <Text>隐藏弹框</Text>
                         </TouchableOpacity>
                     </View>
-                               </View>
+                </View>
 
                 {this._renderFillView()}
             </View>
@@ -118,27 +106,70 @@ export default class OrderDetailDispalyBar extends React.Component {
         }
 
     }
-
-    /***Touch Event Method */
-    //点击区域的左边部分
-    clickLeftBar = (showMoadl) => {
-        this.setState({
-            showMoadl: showMoadl
-        })
-        let deep = 0;
-        let duration = 200;
+    /***信息展示区域的滑动*/
+    showContentView = ()=>{
+        const { slideValue, contentHeight } = this.state;
+        let deep = new Animated.Value(-contentHeight);
+        let duration = 250;
         Animated.timing(
-            this.state.slideValue,
+            slideValue,
             {
                 toValue: deep,
                 duration,
                 easing: Easing.linear,
-                useNativeDriver: true,
-                delay:1000
-
+                useNativeDriver: true
             }
         ).start();
     }
+    hideContentView = ()=>{
+        const { slideValue } = this.state;
+        let deep = new Animated.Value(0);
+        let duration = 250;
+        Animated.timing(
+            slideValue,
+            {
+                toValue: deep,
+                duration,
+                easing: Easing.linear,
+                useNativeDriver: true
+            }
+        ).start();
+    }
+    /***Touch Event Method */
+    //点击区域的左边部分
+    clickLeftBar = (showMoadl) => {
+        if(showMoadl){
+            this.setState({
+                showMoadl: showMoadl
+            })
+            this.showContentView()
+        }else{
+            this.hideContentView()
+            setTimeout(() => {
+                this.setState({
+                    showMoadl: showMoadl
+                })
+            }, 250);
+        }
+    }
+    // runAmimationZero = () => {
+    //     const { slideValue, contentHeight } = this.state;
+    //     let deep = new Animated.Value(-contentHeight);
+    //     let duration = 15;
+    //     Animated.timing(
+    //         slideValue,
+    //         {
+    //             toValue: deep,
+    //             duration,
+    //             easing: Easing.linear,
+    //             useNativeDriver: true,
+    //         }
+    //     ).start(({ finished }) => {
+    //         if (finished) {
+
+    //         }
+    //     });
+    // }
     //点击区域的右边部分
     clickRightBar = () => {
 
