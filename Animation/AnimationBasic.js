@@ -4,6 +4,8 @@ import Styles from '../CommonPart//Style/Styles';
 import AnimationZero  from './AnimationZero';
 import AnimationModal from './AnimationModal';
 import OrderDetailDispalyBar from './OrderDetailDisplayBar/OrderDetailDispalyBar'
+import SVGBasic from './SVGBasic'
+
 
 export default class AnimationBasic extends React.Component {
   render() {
@@ -12,7 +14,7 @@ export default class AnimationBasic extends React.Component {
       <View style={Styles.container}>
          <FlatList 
         style = {Styles.flatListStyle}
-        data={[{ key: '0-基本动画' },{ key: '1-弹框处理' },{key:'2-订单展示弹框'},{key:'3-await获取Promise结果'},{key:'4-回调方法获取Promise结果'}]}
+        data={[{ key: '0-基本动画' },{ key: '1-弹框处理' },{key:'2-订单展示弹框'},{key:'3-svg画基本图形'},{key:'4-回调方法获取Promise结果'}]}
         renderItem={this._renderFlatListItem}
         ItemSeparatorComponent = {() => (<View style={Styles.separator}></View>)}
 
@@ -62,13 +64,14 @@ export default class AnimationBasic extends React.Component {
   testTwoMethod = (data)=>{
     this.props.navigator.push({
       component: OrderDetailDispalyBar,
-      title:'订单明细弹框'
+      title:'2-订单明细弹框'
     });
   }
   testThreeMethod = async()=>{
-     let data = {name:'Jim',age:18};
-     let result = await this.testTwoMethod(data);
-     console.log(result); 
+    this.props.navigator.push({
+      component: SVGBasic,
+      title:'3-svg画基本图形'
+    }); 
   }
   testFourMethod = ()=>{
     let data = {name:'Kin',age:50};

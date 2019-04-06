@@ -78,7 +78,7 @@ export default class AnimationZero extends React.Component {
         Animated.timing(
             slideFromValue,
             {
-                toValue: new Animated.Value(-300),
+                toValue: 1,
                 duration,
                 easing: Easing.linear,
                 useNativeDriver: true,
@@ -108,9 +108,9 @@ export default class AnimationZero extends React.Component {
             <Animated.View                 // 使用专门的可动画化的View组件
               style={{
                   bottom:-(300-80),position:'absolute',
-                 height:300,width:375,backgroundColor:'green',
+                 height:300,width:375*2,backgroundColor:'green',left: -375,
                 transform:[
-                  {translateY: slideFromValue}, // y轴移动
+                  {scaleX: slideFromValue}, // y轴移动
               ]
               }}
             >
