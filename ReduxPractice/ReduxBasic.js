@@ -11,7 +11,7 @@ export default class ReduxBasic extends Component {
       <View style={Styles.container}>
          <FlatList 
         style = {Styles.flatListStyle}
-        data={[{ key: '0-基本用法' },{ key: '1-弹框处理' },{key:'2-订单展示弹框'},{key:'3-svg画基本图形'},{key:'4-回调方法获取Promise结果'}]}
+        data={[{ key: '0-基本用法' }]}
         renderItem={this._renderFlatListItem}
         ItemSeparatorComponent = {() => (<View style={Styles.separator}></View>)}
 

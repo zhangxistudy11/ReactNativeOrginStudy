@@ -46,7 +46,7 @@ class TopView extends Component {
                 <View style={{ 
                     width:100, height:30,justifyContent: 'center', alignItems: 'center', 
                     flexDirection: 'row', backgroundColor: 'red'}}>
-                    <Text>开始变色</Text>
+                    <Text>输入颜色值</Text>
                 </View>
             </TouchableOpacity>
         </View>

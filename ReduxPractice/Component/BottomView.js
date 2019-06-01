@@ -22,9 +22,9 @@ class BottomView extends Component {
         const {backColor}= this.props;
         return (
             <View style={[Styles.container, { marginTop: 40 }]}>
-                <View style={{ marginLeft:70,width: 100, height: 30, justifyContent: 'center', alignItems: 'center', flexDirection: 'row', backgroundColor: 'white' }}>
+                <View style={{ marginLeft:100,width: 200, height: 30, justifyContent: 'center', alignItems: 'center', flexDirection: 'row', backgroundColor: 'white' }}>
                     <View style={{ width: 50, height: 50, justifyContent: 'center', alignItems: 'center', flexDirection: 'row', backgroundColor:backColor }}></View>
-                    <Text>颜色值:{backColor}</Text>
+                    <Text>接受的颜色值:{backColor}</Text>
                 </View>
             </View>
 
