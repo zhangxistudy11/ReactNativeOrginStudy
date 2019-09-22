@@ -19,6 +19,7 @@ class BottomView extends Component {
  
 
     render() {
+        //tip:4 和之前一样，根据store中的变化修改对应值
         const {backColor}= this.props;
         return (
             <View style={[Styles.container, { marginTop: 40 }]}>

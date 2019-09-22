@@ -6,7 +6,7 @@ import {addChangeColor} from '../actions'
 class TopView extends Component {
     constructor(props) {
         super(props);
-        this.colorText = '';
+        // this.colorText = '';
         // this.state=({
         //     colorText:''
         // })
@@ -19,7 +19,7 @@ class TopView extends Component {
     clickTestChangeColor() {
         console.log('aaaaaa');
         console.log(this.colorText);
-        this.props.dispatch(addChangeColor(this.colorText))
+        // this.props.dispatch(addChangeColor(this.colorText))
         // this.props.dispatch({
         //     type: 'CHANGE_COLOR',
         //     backColor: this.colorText,
@@ -40,7 +40,8 @@ class TopView extends Component {
                      }}
             />
              <TouchableOpacity onPress={()=>{
-                 this.props.dispatch(addChangeColor( this.colorText))
+                 //tip:1 props调用action提供的方法
+        this.props.dispatch(addChangeColor(this.colorText))
                 //  this.clickTestChangeColor();
              }}>
                 <View style={{ 
