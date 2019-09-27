@@ -88,7 +88,7 @@ export default class MeiTuanButton extends React.Component {
 
             <Button type='primary' size='md' textColorInverse>默认尺寸拉伸</Button>
           </View>
-          <Text style={styles.header}>禁用/激活状态</Text>
+          <Text style={styles.header}>禁用/激活状态ffff</Text>
 
           <View style={styles.panel}>
             <View style={componentStyles.row}>
