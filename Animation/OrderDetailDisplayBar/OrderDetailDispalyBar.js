@@ -30,6 +30,7 @@ export default class OrderDetailDispalyBar extends React.Component {
                     animationType="fade"
                     transparent={true}
                     visible={showMoadl}
+                    // style = {{backgroundColor: "rgba(0, 0, 0, 0.7)"}}
                     // onShow={()=>{this.showContentView()}}
                 >
                     <View style={{ backgroundColor: "rgba(0, 0, 0, 0.7)", flex: 1 }}>
