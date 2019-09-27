@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableHighlight ,NavigatorIOS, FlatList, TouchableWithoutFeedback } from 'react-native';
-import Styles from '../CommonPart/Style/Styles';
-import MeiTuan from  './MeiTuan/MeiTuan';
+import Styles from '../../CommonPart/Style/Styles';
+import MTCalendar from  './MTCalendar';
+import MeiTuanButton from  './MeiTuanButton';
 
 
-export default class ThirdStudyBasic extends Component {
+export default class MeiTuan extends Component {
   render() {
     return (
      
       <View style={Styles.container}>
          <FlatList 
         style = {Styles.flatListStyle}
-        data={[{ key: '0-美团beeshell' }]}
+        data={[{ key: '0-日历' },{ key: '1-Button' }]}
         renderItem={this._renderFlatListItem}
         ItemSeparatorComponent = {() => (<View style={Styles.separator}></View>)}
 
@@ -37,11 +38,13 @@ export default class ThirdStudyBasic extends Component {
      if(index==0){
          this.testZeroMethod();
      }
-    //  }else if(index ==1){
-    //     this.testOneMethod();
-    //  }else if(index ==2){
+     else if(index ==1){
+        this.testOneMethod();
+     }
+    // else if(index ==2){
     //     this.testTwoMethod();
-    //  }else if(index ==3){
+    //  }
+   // else if(index ==3){
     //     this.testThreeMethod();
     //  }else if(index ==4){
     //     this.testFourMethod();
@@ -49,18 +52,19 @@ export default class ThirdStudyBasic extends Component {
   }
   testZeroMethod= ()=>{
     this.props.navigator.push({
-        component: MeiTuan,
-        title:'0-美团基础'
+        component: MTCalendar,
+        title:'日历'
       });
     
   }
-  /*
+  
   testOneMethod= ()=>{
     this.props.navigator.push({
-        component: AnimationModal,
-        title:'1-弹框动画'
+        component: MeiTuanButton,
+        title:'1-按钮'
       });
   }
+  /*
   testTwoMethod = (data)=>{
     this.props.navigator.push({
       component: OrderDetailDispalyBar,

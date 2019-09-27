@@ -6,16 +6,34 @@ const {
 const unit = {
   onePx: 1 / PixelRatio.get(),
 };
-const Styles = StyleSheet.create({
+const MeiTuanStyle = StyleSheet.create({
 	container: {
 		flex:1
 	},
-	body:{
-		marginTop:10
-	},
+    body: {
+        backgroundColor: "white",
+        flex: 1,
+      },
+     
+      row: {
+        marginHorizontal: 10
+      },
+      header: {
+        paddingHorizontal: 5,
+        paddingVertical: 5,
+        backgroundColor: '#F5f5f5',
+        fontWeight: 'bold',
+        color: "#333333"
+      },
+      panel: {
+        paddingHorizontal: 5,
+        paddingVertical: 5,
+        backgroundColor: '#fff',
+      },
 	flatListStyle: {
       marginTop:10
-	},
+    },
+   
     itemViewStyle :{
 	  height :55,
 	  backgroundColor:'#CCCCCC',
@@ -79,4 +97,4 @@ const Styles = StyleSheet.create({
 });
 
 
-export default Styles
+export default MeiTuanStyle
