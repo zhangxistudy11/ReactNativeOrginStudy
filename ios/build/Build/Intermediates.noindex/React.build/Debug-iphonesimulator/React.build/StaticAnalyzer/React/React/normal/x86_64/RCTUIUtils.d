@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/UIUtils/RCTUIUtils.m \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/React/UIUtils/RCTUIUtils.h
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/UIUtils/RCTUIUtils.m \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/React/UIUtils/RCTUIUtils.h

@@ -15,6 +15,8 @@ import TimerUser from './TimerPart/TimerUser'
 import AsyncBasicGrammar from './AsyncFile/AsyncBasicGrammar'
 import AnimationBasic from './Animation/AnimationBasic'
 import ReduxBasic from './ReduxPractice/ReduxBasic'
+import ThirdStudyBasic from './ThirdLibStudy/ThirdStudyBasic'
+
 const {
 	width,height
 } = Dimensions.get('window');
@@ -53,7 +55,7 @@ export default class App extends Component{
       <View style={Styles.container}>
          <FlatList 
         style = {Styles.flatListStyle}
-        data={[{ key: '0-ES6语法' }, { key: '1-定时器使用' },{ key: '2-异步使用' },{ key: '3-RN中的动画' },{key: '4-Redux使用' }]}
+        data={[{ key: '0-ES6语法' }, { key: '1-定时器使用' },{ key: '2-异步使用' },{ key: '3-RN中的动画' },{key: '4-Redux使用' },{key: '5-三方库学习' }]}
         renderItem={this._renderFlatListItem}
         ItemSeparatorComponent = {() => (<View style={Styles.separator}></View>)}
 
@@ -103,6 +105,12 @@ export default class App extends Component{
        title:'Redux使用'
      });
       break;
+      case 5:
+        this.props.navigator.push({
+         component: ThirdStudyBasic,
+         title:'三方库学习'
+       });
+        break;
      default:
      break;
    }

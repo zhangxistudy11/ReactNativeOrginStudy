@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSCTracing.cpp \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/node_modules/react-native/ReactCommon/cxxreact/JSCTracing.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
-  /Users/zhangxi/Desktop/YunCode/RNOriginPro/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/ReactCommon/cxxreact/JSCTracing.cpp \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/node_modules/react-native/ReactCommon/cxxreact/JSCTracing.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/zhangxiimac/Desktop/CodeRepository/OrginCode/ReactNativeOrginStudy/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h

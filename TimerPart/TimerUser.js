@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableHighlight, NavigatorIOS, FlatList, TouchableWithoutFeedback } from 'react-native';
 import Styles from '../CommonPart//Style/Styles';
+import { Button } from 'beeshell/dist/components/Button';
 
 export default class TimerUser extends React.Component {
     constructor(props) {
@@ -35,6 +36,9 @@ export default class TimerUser extends React.Component {
                         <Text style={[{ color: '#333' }, { fontFamily: 'PingFangSC-Regular' }, { fontSize: 14 }]}>{str}</Text>
                     </View>
                 </TouchableWithoutFeedback>
+                <View>
+ 
+                </View>
             </View>
         )
     }
