@@ -66,7 +66,7 @@ export default class MeiTuanButton extends React.Component {
             <Button style={[componentStyles.spacingH, componentStyles.spacingV]} type='info' size='sm'>一般信息 info</Button>
             <Button style={[componentStyles.spacingH, componentStyles.spacingV]} type='warning' size='sm'>警告 warning</Button>
             <Button style={[componentStyles.spacingH, componentStyles.spacingV]} type='danger' size='sm'>危险 danger</Button>
-            <Button type='text' size='sm'>纯文本ggg text</Button>
+            <Button type='text' size='sm'>纯文本 text</Button>
           </View>
           {this.state.count ? <Text testID='text'>点击了按钮 {this.state.count}</Text> : null}
 
