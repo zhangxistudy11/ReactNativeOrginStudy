@@ -98,7 +98,7 @@ export default class MeiTuanButton extends React.Component {
               <Button style={[componentStyles.spacingH]} type='text' size='sm' disabled>纯文本 text</Button>
             </View>
           </View>
-          <Text style={styles.header}>自定义样式与内容</Text>
+          <Text style={styles.header}>自定义3333样式与内容</Text>
 
           <View style={styles.panel}>
           <View style={[componentStyles.row, { alignItems: 'center' }]}>
