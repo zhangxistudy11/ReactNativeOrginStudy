@@ -46,7 +46,7 @@ export default class MeiTuanButton extends React.Component {
     return (
       <ScrollView
         style={styles.body}>
-        <Text style={styles.header}>预定义样式</Text>
+        <Text style={styles.header}>预定义样式55555</Text>
         <View >
           <View >
             <Button
