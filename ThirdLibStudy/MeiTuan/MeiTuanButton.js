@@ -115,7 +115,7 @@ export default class MeiTuanButton extends React.Component {
               type='info'
               size='sm'>
               <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <Text style={{ color: '#fff', marginLeft: 5 }}>搜索</Text>
+                <Text style={{ color: '#fff', marginLeft: 5 }}>搜索111</Text>
               </View>
             </Button>
 
