@@ -107,7 +107,7 @@ export default class MeiTuanButton extends React.Component {
               type='primary'
               size='md'
               textColorInverse>
-              圆角
+              圆角222
             </Button>
             
             <Button
