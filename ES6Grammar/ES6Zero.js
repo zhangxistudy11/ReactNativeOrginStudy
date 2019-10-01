@@ -61,6 +61,7 @@ export default class ES6Zero extends React.Component {
         }else if (code === 2){
             console.log('重新计时'+ new Date())
             this.startUserTimer()
+            //ffff
          }
     }
     startUserTimer (){
